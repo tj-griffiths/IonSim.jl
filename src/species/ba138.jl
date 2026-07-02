@@ -25,7 +25,7 @@ export Ba138
 ##
 ## Einstein A coefficients:
 ##   E1 rates from Iskrenova-Tchoukova & Safronova, Phys. Rev. A 78, 012508 (2008)
-##   E2 rates estimated from measured state lifetimes:
+##   E2 rates inferred from measured state lifetimes:
 ##     τ(5D₅/₂) ≈ 31.2(0.9)s  (Auchter et al., Phys. Rev. A 90, 060501(R) (2014))
 ##     τ(5D₃/₂) ≈ 79.8(4.6)s  (Yu, Nagourney, Dehmelt, Phys. Rev. Lett. 78, 4898 (1997))
 ##
@@ -66,7 +66,7 @@ const properties_ba138 = IonProperties(;
     gfactors = Dict(
         "S1/2" => 2.0024922,    # Knöll
         "D5/2" => 1.200372,     # Hoffman et al., Phys. Rev. A 88, 025401 (2013)
-        "D3/2" => 0.7993,       # Knöll et al., Phys. Rev. A 54, 1199 (1996)
+        "D3/2" => 0.7993278,    # Knöll et al., Phys. Rev. A 54, 1199 (1996)
         "P1/2" => 0.6667,       # Landé (2/3)
         "P3/2" => 1.3333,       # Landé (4/3)
     )
